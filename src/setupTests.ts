@@ -22,7 +22,7 @@ afterEach(() => {
 })
 
 vi.mock('trystero')
-vi.mock('trystero/torrent')
+vi.mock('trystero/nostr')
 
 vi.mock('secure-file-transfer', () => ({
   __esModule: true,

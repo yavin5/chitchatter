@@ -1,4 +1,4 @@
-import { getRelaySockets } from 'trystero/torrent'
+import { getRelaySockets } from 'trystero/nostr'
 import { parseCandidate } from 'sdp'
 
 export enum ConnectionTestEvents {
